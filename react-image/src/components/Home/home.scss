@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    flex-direction: column;
+    
+   h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    background:  greenyellow;
+   }
+
+   ol{
+      li{
+        font-size: 18px;
+        color: #5f5d5d;
+      }
+   }
+
+   button{
+    background-color: #faff5a;
+    padding: 10px 30px;
+    border: none;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    &:hover{
+      color: #000 !important;
+    }
+   }
+  }
+
